@@ -25,7 +25,7 @@ class App extends Component {
         <button onClick={this.IncrementItem}>Increment</button>
         <button onClick={this.DecreaseItem}>Decrement</button><br></br><br></br>
         <button onClick={this.ToggleClick}>
-          { this.state.show ? 'Hide number' : 'Show number' }
+          { this.state.show ? 'Hide Number' : 'Show Number' }
         </button>
         { this.state.show ? <h2>{ this.state.count }</h2> : '' }
       </div>
